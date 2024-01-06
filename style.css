@@ -1,0 +1,234 @@
+/* Reset some default styles for better consistency across browsers */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #250ea7;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+} */
+
+.hero {
+    background-image: url('./photos/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input, .search-bar button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+
+.search-results {
+    width: 100%;
+    height: 370px;
+overflow-y: hidden;
+overflow-x: auto;
+/* border-bottom: 1px solid black; */
+}
+
+.result-item {
+    height: 310px;
+    width: 100%;
+    background-color: #fffcfc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .6s;
+  
+}
+.result-item:hover{
+  cursor: pointer;
+    transform: scale(1.05);
+}
+.result-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.result-item h3 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #001bc9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links ul li {
+    margin-right: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media-links a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.app-download button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logo{
+    font-size: large;
+}
+header ul{
+    list-style: none;
+    
+}
+header ul li{
+    display: inline;
+    margin-left: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+header ul li a{
+    color: rgb(33, 33, 208);
+}
+#book-btn{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    margin-left: 23%;
+    transition: .5s;
+}
+#book-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+h2{
+    margin-left: 5%;
+}
+p{
+    margin-left: 5%;
+    color: #6e6b6b;
+}
+#hotels{
+    list-style: none;
+}
+#hotels li{
+    display: inline;
+   
+    width: 15%;
+    display: inline-flex;
+}
+.imgs{
+    width: 100px;
+    height: 60px;
+     border-radius: 12px;
+}
+.fe-item{
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.featured-section ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 70px;
+    width: 20%;
+transition: .6s;
+}
+.featured-section ul li:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.featured-section ul{
+    width: 100%;
+  
+}
+.featured-section{
+    width: 100%;
+    height: 130px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* border-bottom: 1px solid black; */
+}
+input {
+    border-radius: 9px;
+}
+#search-btn{
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: #250ea7;
+    width: 60px;
+    font-weight: bold;
+    transition: .6s;
+}
+#search-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.user{
+    transition: .6s;
+}
+.user:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
